@@ -21,9 +21,6 @@ const runConsumer = async () => {
 
       // Save to DB
       await dbService.saveEvent(data);
-
-      // Cache it
-      await cacheService.cacheEvent(data);
     }
   });
 };
