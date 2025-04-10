@@ -1,0 +1,24 @@
+{
+  "name": "event-driven-app",
+  "version": "1.0.0",
+  "description": "event-driven-application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "author": "imran",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "kafkajs": "^2.2.4",
+    "mysql2": "^3.14.0",
+    "redis": "^4.7.0",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
