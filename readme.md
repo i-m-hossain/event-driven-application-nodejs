@@ -11,32 +11,6 @@ This project is a simple event-driven architecture using:
 - 🔁 Nodemon (hot reloading)
 - ❤️ Healthchecks and logs
 
----
-
-## 📁 Project Structure
-
-event-driven-app/
-
-├── src/
-│   ├── app.js
-│   ├── kafka/
-│   │   ├── producer.js
-│   │   └── consumer.js
-│   ├── routes/
-│   │   └── index.js
-│   ├── controllers/
-│   │   └── eventController.js
-│   ├── services/
-│   │   ├── dbService.js
-│   │   └── cacheService.js
-├── mysql-init
-│   ├── init.sql
-├── docker-compose.yml
-├── Dockerfile
-├── .dockerignore
-├── .env
-├── package.json
-├── readme.md
 
 
 ## ⚙️ Features
